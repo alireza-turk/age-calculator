@@ -12,7 +12,7 @@ export default function App() {
           </ContextApp>
       </div>
       <div className="attribution">
-        Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.Coded by <a href="#">Your Name Here</a>.
+        Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.Coded by <a href="#">alireza ahmadiyan</a>.
       </div>
     </div>
 }
