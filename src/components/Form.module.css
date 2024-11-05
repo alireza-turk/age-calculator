@@ -1,0 +1,53 @@
+.form {
+    display: flex;
+    justify-content: left;
+    align-items: start;
+    gap: 10px;
+    padding-right: 100px;
+    padding-bottom: 50px;
+    width: 100%;
+    border-bottom: 2px solid var(--light-grey-color);
+    position: relative;
+}
+
+.inputBox {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.inputBox input {
+    border: 2px solid var(--light-grey-color);
+    border-radius: 5px;
+    padding: 10px;
+    font-weight: 700;
+    width: 200px;
+}
+
+.inputBox input:focus-visible {
+    outline: 2px solid var(--primary-color);
+    border: 0;
+}
+
+.inputBox label {
+    font-weight: 400;
+}
+
+.form button {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 0;
+    font-size: 50px;
+    background-color: var(--primary-color);
+    color: var(--white-color);
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    transform: translateY(50%);
+    cursor: pointer;
+}
+
+.form button:hover {
+    background-color: var(--off-black-color);
+}

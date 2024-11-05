@@ -1,0 +1,12 @@
+.answerContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    font-weight: 800;
+    font-size: 70px;
+    font-style: italic;
+}
+
+.answerContainer span {
+    color: var(--primary-color);
+}
